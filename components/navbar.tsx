@@ -8,10 +8,10 @@ export default function Navbar() {
     <nav className="border-b">
       <div className="container flex items-center justify-between py-4">
         <Link href="/" className="flex items-center space-x-2">
-          <Stethoscope className="h-6 w-6 text-primary" />
-          <span className="text-xl font-bold">e-Doctor</span>
+          <Stethoscope className="h-6 w-6 text-primary ml-3" />
+          <span className="text-xl font-bold pl-2">e-Doctor</span>
         </Link>
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-7 ">
           <Link href="/">
             <Button variant="ghost" size="sm">
               <Home className="mr-2 h-4 w-4" />

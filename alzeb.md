@@ -1,36 +1,159 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# e-Doctor
+
+e-Doctor is a web-based application designed to streamline the process of scheduling and managing medical appointments. It provides an intuitive platform for patients to book consultations with healthcare professionals and offers tools for doctors to manage their schedules efficiently.
+
+#### Live Link @vercel : https://e-doctor-nine.vercel.app/
+
+## Features
+
+#### Home 
+- Patient dashboard overview 
+- Quick access to common features
+- Recent activity summary 
+
+### Symptom Checker
+- Interactive symptom assessment 
+- Preliminary health recommendations 
+- Option to connect with healthcare providers
+
+ #### Chatbot 
+-  AI-powered health assistant 
+- Common health queries 
+- Emergency resource information 
+
+#### Health Report 
+- Medical history overview 
+- Test results and reports 
+- Treatment progress tracking
+
+## Technologies Used
+
+- **Frontend**: React.js with Next.js framework
+- **Styling**: Tailwind CSS
+- **Backend**: Node.js with Express.js
+- **Database**: MongoDB
+- **Authentication**: JSON Web Tokens (JWT)
 
 ## Getting Started
 
-First, run the development server:
+To set up the project locally:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the repository**:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/sharmapranay38/e-doctor.git
+   cd e-doctor
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Install dependencies**:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. **Set up environment variables**:
 
-To learn more about Next.js, take a look at the following resources:
+   Create a `.env` file in the root directory and add the following variables:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```env
+   MONGODB_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret_key
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Start the development server**:
 
-## Deploy on Vercel
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   The application will be available at `http://localhost:3000`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Figma Designs
+
+The application's user interface is designed using Figma. You can view the design prototypes and assets here:
+# e-Doctor
+
+e-Doctor is a web-based application designed to streamline the process of scheduling and managing medical appointments. It provides an intuitive platform for patients to book consultations with healthcare professionals and offers tools for doctors to manage their schedules efficiently.
+
+#### Live Link @vercel : https://e-doctor-nine.vercel.app/
+
+## Features
+
+#### Home 
+- Patient dashboard overview 
+- Quick access to common features
+- Recent activity summary 
+
+### Symptom Checker
+- Interactive symptom assessment 
+- Preliminary health recommendations 
+- Option to connect with healthcare providers
+
+ #### Chatbot 
+-  AI-powered health assistant 
+- Common health queries 
+- Emergency resource information 
+
+#### Health Report 
+- Medical history overview 
+- Test results and reports 
+- Treatment progress tracking
+
+## Technologies Used
+
+- **Frontend**: React.js with Next.js framework
+- **Styling**: Tailwind CSS
+- **Backend**: Node.js with Express.js
+- **Database**: MongoDB
+- **Authentication**: JSON Web Tokens (JWT)
+
+## Getting Started
+
+To set up the project locally:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/sharmapranay38/e-doctor.git
+   cd e-doctor
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**:
+
+   Create a `.env` file in the root directory and add the following variables:
+
+   ```env
+   MONGODB_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret_key
+   ```
+
+4. **Start the development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+   The application will be available at `http://localhost:3000`.
+
+## Figma Designs
+
+The application's user interface is designed using Figma. You can view the design prototypes and assets here:
+### Light Theme : 
+<img width="1440" alt="Screenshot 2025-02-14 at 8 43 10 PM" src="https://github.com/user-attachments/assets/8d5bdb71-0a06-4639-acdb-dcdf08da75bf" />
+<img width="1440" alt="Screenshot 2025-02-14 at 8 43 39 PM" src="https://github.com/user-attachments/assets/d302bbb4-c46b-4f54-8538-bd3e7be0c374" />
+<img width="1440" alt="Screenshot 2025-02-14 at 8 43 52 PM" src="https://github.com/user-attachments/assets/16832788-70d5-4631-9ceb-b23b91d70be2" />
+
+### Dark Theme :
+
+<img width="1440" alt="Screenshot 2025-02-14 at 8 43 32 PM" src="https://github.com/user-attachments/assets/22f1bcd6-4acb-49b3-9fc5-e82731220232" />
+<img width="1440" alt="Screenshot 2025-02-14 at 8 43 46 PM" src="https://github.com/user-attachments/assets/f7af04fe-d62b-4cc1-ac60-b0abedc40b95" />
+<img width="1440" alt="Screenshot 2025-02-14 at 8 42 43 PM" src="https://github.com/user-attachments/assets/c88bfe52-28a1-482a-beb0-72c9263c9089" />
+
+
+#### Figma Link : [Click Me!!!](https://www.figma.com/proto/LExkBuGFoDOKCjMFwL583F/Untitled?node-id=2-2560&t=k1eDz2ufpf6CYzH0-1)

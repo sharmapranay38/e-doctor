@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Mic, Loader2 } from "lucide-react"
-import { toast } from "@/components/ui/toast"
+import { toast } from "@/hooks/use-toast"
 
 export default function SymptomChecker() {
   const [symptoms, setSymptoms] = useState("")
